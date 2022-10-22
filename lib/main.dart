@@ -42,11 +42,62 @@ style: TextStyle(
               fontSize: 20
             ),
             ),
-            Container(
-              child: Row(
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Container(
+                decoration: BoxDecoration(
+                    color: Colors.grey,
+                  borderRadius: BorderRadius.circular(8)
+                ),
+                height: 50,
+
+                child: Row(
+                  children: [
+                    Spacer(flex: 1,),
+                    Icon(Icons.phone,size: 35,
+                      color: Color(0xFF2B475E),
+                    ),
+                    Spacer(flex: 1,),
+                    Text('+216 0000000',style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
+                    ),
+                    Spacer(flex: 8,),
+                  ],
+                ),
+
 
               ),
-            )
+            ),
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Container(
+                decoration: BoxDecoration(
+                    color: Colors.grey,
+                    borderRadius: BorderRadius.circular(8)
+                ),
+                height: 50,
+
+                child: Row(
+                  children: [
+                    Spacer(flex: 1,),
+                    Icon(Icons.mail,size: 35,
+                      color: Color(0xFF2B475E),
+                    ),
+                    Spacer(flex: 1,),
+                    Text('yassine.chebbi2023@gmail.com',style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
+                    ),
+                    Spacer(flex: 8,),
+                  ],
+                ),
+
+
+              ),
+            ),
 
 
 
