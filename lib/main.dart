@@ -17,11 +17,11 @@ class businessCardApp extends StatelessWidget {
 
             Center(
               child: CircleAvatar(
-                radius: 112,
+                radius: 102,
                   backgroundColor: Colors.black,
                   child: Center(
                     child: CircleAvatar(
-                      radius: 110,
+                      radius: 100,
                       backgroundImage: AssetImage('images/zu.png'),
                     ),
                   ),
@@ -41,6 +41,12 @@ style: TextStyle(
               color: Color(0xFF6C8090),
               fontSize: 20
             ),
+            ),
+            Divider(
+              color: Colors.red,
+              thickness: 1,
+              indent: 60,
+              endIndent: 60,
             ),
             Padding(
               padding: const EdgeInsets.all(16.0),
@@ -66,8 +72,6 @@ style: TextStyle(
                     Spacer(flex: 8,),
                   ],
                 ),
-
-
               ),
             ),
             Padding(
@@ -81,11 +85,11 @@ style: TextStyle(
 
                 child: Row(
                   children: [
-                    Spacer(flex: 1,),
+                    Spacer(flex: 3),
                     Icon(Icons.mail,size: 35,
                       color: Color(0xFF2B475E),
                     ),
-                    Spacer(flex: 1,),
+                    Spacer(flex: 3,),
                     Text('yassine.chebbi2023@gmail.com',style: TextStyle(
                       fontSize: 20,
                       color: Colors.white,
@@ -94,17 +98,8 @@ style: TextStyle(
                     Spacer(flex: 8,),
                   ],
                 ),
-
-
               ),
             ),
-
-
-
-
-
-            
-
           ],
         ),
       ),
